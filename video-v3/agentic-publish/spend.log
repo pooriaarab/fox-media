@@ -1,0 +1,30 @@
+agentic-publish v3 launch video - spend log (2026-10-11, box bx_ncxyzrwa)
+Budget: $2.00 per video. Total paid: $0.474
+
+PAID CALLS (wavespeed.ai list prices, verified on model pages 2026-10-11):
+1. minimax/music-2.6 $0.15/run x 1 = $0.15 (prediction e2d30ae0f0a94c6aba9368b0acefcf7d, instrumental hyperpop bed, used 0-24s)
+2. bytedance/seedream-v4 $0.027/run (s1-hook-L 9e99cb3ef8e945a7ae56af60fbc53eec)
+3. bytedance/seedream-v4 $0.027/run (s1-hook-P fc0b369158014c1db79b531d9d49a9fd)
+4. bytedance/seedream-v4 $0.027/run (s10-endbg-L 466ddd1a107344b1bac15542d62f4fde)
+5. bytedance/seedream-v4 $0.027/run (s10-endbg-P d62397d156214d4abb1ab270f2e626e3)
+6. bytedance/seedream-v4 $0.027/run (s2-rush-L 241d907cfce041c58ecdf283b99f1690)
+7. bytedance/seedream-v4 $0.027/run (s2-rush-P 1058bcfe6f3b40ff9c980d8daff77d84)
+8. bytedance/seedream-v4 $0.027/run (s3-chaos-L 36bdfeec08604d1b9d8e33b8f5e90858)
+9. bytedance/seedream-v4 $0.027/run (s3-chaos-P e9f86cdcb6964c90bd7c40ba975a2c07)
+10. bytedance/seedream-v4 $0.027/run (s7-payoff-L 8fe5ad21d5d34807bdf9e67b880a15cf)
+11. bytedance/seedream-v4 $0.027/run (s7-payoff-P b5e7eb4d4b744649b3627a0f9efcfb00)
+12. bytedance/seedream-v4 $0.027/run (s9-peace-L ff0cd239a23646eaaef6b952b1fa51a5)
+13. bytedance/seedream-v4 $0.027/run (s9-peace-P 5b6bebdedf7f4b3a80310f60f6960f64)
+TOTAL: $0.15 + 12 x $0.027 = $0.474
+
+$0 ITEMS:
+- Brand SVGs: Simple Icons (CC0) via cdn.jsdelivr.net/npm/simple-icons (x, tiktok, linkedin, instagram); white recolor equals the blessed /white variant (cdn.simpleicons.org 403s from boxes, same files).
+- Raccoon still: File:Raccoon in Central Park (35264).jpg by Rhododendrites, CC BY-SA 4.0, via Wikimedia Commons thumb 1280px. Credited on screen in shot 6.
+- Fonts: Archivo Black + Inter (SIL OFL) via github.com/google/fonts.
+- SFX: synthesized with ffmpeg Lavfi (pop, tick, squeak, riser, whoosh, thud, ding, swell, resolve). No paid calls.
+- Render: HyperFrames 0.8.146 local render ($0). No narration, no voiceover, no TTS. HeyGen unused (non-HeyGen pack).
+
+MEASURED PROOF (agentic-publish CLI on this box, see proof.txt):
+- queue list brand acme: 5 entries; drain preview: remaining 5, planned 5 -> on-screen '5 posts. 1 queue.'
+- publish dry-run targets: x, linkedin, tiktok, instagram (4) -> hook 'Four apps. One post. Zero patience.'
+  (director pack wrote 'Five apps'; corrected to the measured 4 per the truth rule.)
