@@ -1,0 +1,24 @@
+# agentic-phone v3 launch video — spend log
+# box: bx_5km7pex4 | date: 2026-10-11 | source: workflow child
+# paid calls (model, price each, count):
+#   tinyfish-search (api.search.tinyfish.ai, Free tier): 4 calls x $0.00
+#   tinyfish-fetch (api.fetch.tinyfish.ai, Free tier): 4 calls x $0.00
+#   wavespeed: none (visuals composited with PIL, $0 pattern)
+#   heygen: none (heygen.md gates on lead GO; task-global NO-VO rule governs,
+#     founder inserts at beats 2+4 omitted, story carried by visuals + SFX)
+#   music: none (wah-funk 102 BPM bed synthesized with numpy)
+# logos: official vendor SVGs (unmodified) via TinyFish-located brand pages:
+#   vapi.ai/VAPI.svg, bland.ai/images/bland-logo.svg,
+#   retellai.com/logos Main Logo white (official CDN),
+#   telnyx cloudfront logo svg; X mark via Simple Icons CDN (CC0, per trends).
+model=tinyfish-search price=0.00 count=4
+model=tinyfish-fetch price=0.00 count=4
+model=wavespeed price=0.00 count=0
+model=heygen price=0.00 count=0
+image_spend=0.00
+music_spend=0.00
+total=0.00 budget=2.00
+# proof: node proof.mjs vs real SDK (placeCall preview + createCallGuards
+# blocklist ["you have won","act now or lose"], fixed 12:00 UTC clock):
+# RESULT pass=4 blocked=2 -> on-screen "4 passed. 2 blocked."
+# J6 gag rendered procedurally (masked-caller card + slash); X3 trimmed.
