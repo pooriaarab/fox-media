@@ -1,0 +1,32 @@
+# agentic-inbox v3 launch video — spend log (box bx_5tvgbwp6, 2026-10-11)
+# Budget: $2.00. Every paid generation call is listed with model and price.
+
+PAID CALLS: none. Total: $0.00 (at most $2.00: PASS)
+
+How the $0 build was done (all on boat.dev box, HyperFrames launch-template craft):
+- Video: hand-authored HyperFrames HTML/GSAP compositions, 2 separate full-frame
+  renders (16x9 1920x1080, 9x16 1080x1920). No blur fill, no crop, no pillarbox.
+- Music/SFX: synthesized locally with numpy (chippy 98 BPM lullaby, modem
+  warble, dings, clicks, whoosh, purr, chime, ticks). No TTS, no voiceover.
+- Logos: real Simple Icons CC0 marks (Gmail, X) via jsDelivr mirror of the
+  trends-sanctioned Simple Icons CDN (cdn.simpleicons.org returned 403 from box).
+  X-white variant = official /white recolor for dark card. Unmodified paths.
+- Raccoon cut-in: real photo, "Raccoon in Central Park (35264).jpg" via
+  Wikimedia Commons API (not generated). License/artist in build notes below.
+- No Wavespeed/HeyGen/TinyFish calls. Keys verified SET, never used, never printed.
+
+MEASURED proof numbers (from repo tests/artifacts, never invented):
+- "96 tests green": vitest run on box, agentic-inbox @ depth-1 clone of main:
+  Test Files 7 passed (7), Tests 96 passed (96) — cli 21, mail 43, core 21,
+  worker 6, contract 1, mcp 3, version 1.
+- "4 adapters. 1 command": 4 adapter rows in README Adapters table
+  (resend, postmark, instantly, smartlead); 1 `send` CLI command. No vendor
+  names appear on screen, per director pack.
+
+ASSET PROVENANCE:
+- gmail.svg: https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/gmail.svg (339 B)
+- x.svg: https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/x.svg (299 B)
+- raccoon.jpg: Wikimedia Commons thumb API, File:Raccoon in Central Park (35264).jpg
+
+AUDIO AUDIT: -14.40 LUFS integrated (target -16..-14), true peak -3.45 dB
+(ceiling -1 dB). No VO; SFX sit under music bed. PASS.
