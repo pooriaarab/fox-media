@@ -1,0 +1,15 @@
+agentic-core v3 sting spend log
+date: 2026-10-11 UTC
+box: bx_hxf4y83z (agent-roster, ttl 7200)
+budget: $2.00 per video
+
+paid calls: 0
+- WaveSpeed: 0 calls, $0.00. Procedural render only (PIL plus numpy
+  frames, ffmpeg H264). No AI image or video generation.
+- HeyGen: 0 calls, $0.00. Sting carries no head per director pack.
+- TinyFish: 0 calls, $0.00. No vendor marks in sting per pack.
+- TTS or voice: none. No narration, no voiceover. Audio is
+  numpy-synthesized hum, crackle, slam, ticks, whir, blips.
+
+models used (paid): none
+total: $0.00 / $2.00
