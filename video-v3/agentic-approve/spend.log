@@ -1,0 +1,13 @@
+# agentic-approve v3 launch video — spend log
+# box: bx_5km7pex4 | date: 2026-10-11 | source: workflow child
+# paid calls (model, price each, count):
+#   none — visuals composited with PIL, audio synthesized with numpy,
+#   logos are official Simple Icons marks (free) fetched via the
+#   jsdelivr npm mirror (cdn.simpleicons.org served a bot challenge).
+model=none price=0.00 count=0
+image_spend=0.00
+music_spend=0.00
+total=0.00 budget=2.00
+# notes: founder HeyGen inserts omitted (heygen.md gates on lead GO;
+#   task-global NO-VO rule governs). J4 baby-self JPG cut-in omitted
+#   (assets/jpg/approve-j4-baby.jpg absent from repo; no image spend).
