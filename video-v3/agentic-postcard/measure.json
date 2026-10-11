@@ -1,0 +1,1 @@
+{"allLive":true,"dispatches":50,"elapsedMs":16,"fixture":"10 states x 5 cards (TX FL NY CO WA IL MA AZ TN OR)","measuredAt":"2026-10-11T06:27:05Z","method":"node measure.mjs against built dist, live:true vendor:lob with fixture fetch (no network)","receipts":50,"sampleId":"psc_fixture_1","suite":"74/74 vitest pass","units":50}
