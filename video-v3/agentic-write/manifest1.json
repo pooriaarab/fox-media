@@ -1,0 +1,32 @@
+{
+ "hero-L": {
+  "id": "fa9a4385b78f4b20b4ce98ab69662a7b",
+  "model": "bytedance/seedream-v4",
+  "url": "https://d2h7xmz5gqybh9.cloudfront.net/output/d1769e69-cffc-417a-b8de-ac1b117d6833.jpeg",
+  "file": "/home/user/vid/gen/hero-L.png"
+ },
+ "hero-P": {
+  "id": "0cfa3be31eea470db60b9fb62fd06454",
+  "model": "bytedance/seedream-v4",
+  "url": "https://d2h7xmz5gqybh9.cloudfront.net/output/e1ce8db7-dc4a-480d-909b-986aaaabf484.jpeg",
+  "file": "/home/user/vid/gen/hero-P.png"
+ },
+ "j5-L": {
+  "id": "3493fc27f1eb4d179fcb18f7193c4220",
+  "model": "bytedance/seedream-v4",
+  "url": "https://d2h7xmz5gqybh9.cloudfront.net/output/e0404ac4-4521-45b4-aa27-df1ecfc3b606.jpeg",
+  "file": "/home/user/vid/gen/j5-L.png"
+ },
+ "j5-P": {
+  "id": "5eb36b06381e42ea98f902d225c648e3",
+  "model": "bytedance/seedream-v4",
+  "url": "https://d2h7xmz5gqybh9.cloudfront.net/output/16726573-d885-4354-993a-e8bcd0ac7eeb.jpeg",
+  "file": "/home/user/vid/gen/j5-P.png"
+ },
+ "music": {
+  "id": "5ae255e5682d47b9922475c6c6397793",
+  "model": "minimax/music-2.6",
+  "url": "https://d2h7xmz5gqybh9.cloudfront.net/output/652b2255-109a-47b8-b4d2-bb63dbae87d5.mp3",
+  "file": "/home/user/vid/gen/musicBed.mp3"
+ }
+}

@@ -1,0 +1,63 @@
+agentic-write v3 launch video spend log
+date: 2026-10-11 UTC
+box: bx_hfyh2y9y (agent-roster, ttl 7200)
+budget: $2.00 per video
+
+paid calls: 25 (24 image stills + 1 music bed)
+- WaveSpeed bytedance/seedream-v4 T2I, $0.027 per run (model page,
+  https://wavespeed.ai/models/bytedance/seedream-v4).
+  18 runs x $0.027 = $0.486:
+  hero-L fa9a4385b78f4b20b4ce98ab69662a7b (1920x1080 hero ref, oak office)
+  hero-P 0cfa3be31eea470db60b9fb62fd06454 (1080x1920 hero ref)
+  j5-L 3493fc27f1eb4d179fcb18f7193c4220 (J5 retro saree cut-in, 16x9)
+  j5-P 5eb36b06381e42ea98f902d225c648e3 (J5 retro saree cut-in, 9x16)
+  + 14 object/scene stills s1,s3,s4,s5,s7,s8,s10 x L+P (prediction ids
+  in manifest2.json next to this log).
+- WaveSpeed bytedance/seedream-v4/edit, $0.027 per image (docs,
+  https://wavespeed.ai/docs/docs-api/bytedance/bytedance-seedream-v4-edit).
+  6 runs x $0.027 = $0.162:
+  s2,s6,s9 x L+P star-topology edits of the hero ref (same face/suit).
+- WaveSpeed minimax/music-2.6, $0.15 per song (model page,
+  https://wavespeed.ai/models/minimax/music-2.6).
+  1 run x $0.15 = $0.15:
+  music 5ae255e5682d47b9922475c6c6397793 (brushed jazz trio instrumental,
+  is_instrumental=true, trimmed to 21 s, enters t=4 s).
+- HeyGen: 0 calls, $0.00. Write is not one of the 4 HeyGen packs.
+- TinyFish: 0 calls, $0.00. Social marks came from free Simple Icons
+  SVGs (X + LinkedIn) via cdn.jsdelivr.net/npm/simple-icons, recolored
+  and rasterized on the box with rsvg-convert.
+- TTS / voiceover: none. Banned on all 20 packs.
+- SFX: $0.00. Synthesized on the box with ffmpeg aevalsrc/anoisesrc
+  (typebar clacks, carriage dings, paper crush/swish, sip, tick, toast
+  clink, resolve pad).
+- Video motion: $0.00. No image-to-video calls (over budget for 10
+  shots); camera moves are ffmpeg zoompan on the stills above.
+
+models used (paid): bytedance/seedream-v4, bytedance/seedream-v4/edit,
+  minimax/music-2.6
+image spend: 24 x $0.027 = $0.648
+music spend: 1 x $0.15 = $0.15
+total: $0.798 / $2.00
+
+measured proof (shot 8 "Draft in 0.03 seconds.")
+- Built the real repo on the box (agentic-write a738ef01, npm ci +
+  npm run build clean) and timed its real default dry-run path:
+  node dist/cli.js write --kind post --brief "autumn boots on sale"
+  -> dryRun text "Discover autumn boots on sale. Take a closer look
+  today." (56 chars)
+  wall time (/usr/bin/time): 0.03 s, 0.03 s, 0.02 s (median 0.03 s).
+  The shot 8 headline is that real output text; the time line is the
+  measured median. See measure.json.
+
+render notes
+- 24.0 s, 10 shots (+J5 cut-in inside shot 5 per pack), hard cuts,
+  no fade from black, frame 0 is the hook poster.
+- Exact text and real logos composited in post with ffmpeg, never
+  generated. Stills prompted with no-text guards.
+- 1920x1080 and 1080x1920 are separate full-frame renders from
+  orientation-specific stills (no blur fill, no crop, no pillarbox).
+  End card holds 4 s with the npm pill and both real URLs.
+  Audio normalized to -15 LUFS, peak at most -1 dB.
+- QC: ffprobe dims/duration/streams, loudness audit, programmatic
+  text-region diff checks on poster/end/proof/card frames (this box
+  path has no image viewer; stills verified by dims + prompt guards).
