@@ -1,0 +1,12 @@
+# agentic-brand v3 launch video — spend log (USD)
+# budget $2.00 | box bx_z95abjuk | date 2026-10-11 | world: 80s neon-noir grid studio
+paid | minimax/music-2.6 | 1 run x $0.15 = $0.15 | pred 5924507627b54fe18db1ad943c37c525 | instrumental synthwave bed, first 24 s used (drop ~6 s)
+paid | bytedance/seedream-v4 | 1 run x $0.027 = $0.027 | pred 559315ed84a64a24ab99063dbcd5e0bb | J3 blister-pack figurine still 1024x1024, no-text prompt, OCR-verified 0 words
+free | simple-icons 16.34.0 (CC0) instagram/tiktok/x via cdn.jsdelivr.net (cdn.simpleicons.org returned a JS challenge to curl; same upstream bytes)
+free | ffmpeg-synthesized SFX x13 + hiss bed + loudnorm | hyperframes 0.8.146 local renders x2 | gh API repo list
+total paid: $0.177 (UNDER $2.00 budget)
+wavespeed balance before: $13.55705
+proof provenance: "20 packs" = 20 pack files in fox-media/video-v3/director (measured via repo listing); "1 kit. 3 checks. 0.1 s" = real agentic-brand CLI run (kit valid / render Hello world / voice clean, 0.095 s total)
+claim provenance: kit.json keys voice/look/templates = brandKitSchema in agentic-brand/src/brand.ts; comment "this goes hard. ship it." = trends-2026-10.md X1
+audio: no voiceover (pack is non-HeyGen); shipped AAC: integrated -15.69 LUFS, true peak -2.16 dBTP (mix wav -14.56/-1.50, -1 dB safety for AAC peak rise), SFX bus 0.55
+wavespeed balance after: $11.91305 (fleet-wide delta $1.644 shared with sibling video workers on the same key; this video metered $0.177 on prediction ids above)
