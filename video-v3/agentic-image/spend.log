@@ -1,0 +1,8 @@
+pack=agentic-image model=bytedance/seedream-v4 unit_usd=0.027 calls=6 stills_usd=0.162
+hero-marble model=bytedance/seedream-v4 price_usd=0.027 prediction=800ae7de7bbe436bb4b1ed509dfa73ef bytes=453095
+viral-figurine model=bytedance/seedream-v4 price_usd=0.027 prediction=ac84999fc3484810bff7f7992b325ba3 bytes=520208
+viral-saree model=bytedance/seedream-v4 price_usd=0.027 prediction=8bdd1fff59f74798888e3cd3ed39c88f bytes=494254
+viral-baby model=bytedance/seedream-v4 price_usd=0.027 prediction=478fe8224c1142bdb3359347e570044f bytes=483591
+viral-ghibli model=bytedance/seedream-v4 price_usd=0.027 prediction=fa1232fdb51a400aa1dc17328b1c0c93 bytes=624075
+creator-print model=bytedance/seedream-v4 price_usd=0.027 prediction=e18bbea1c75c4bffb08be82aab538b79 bytes=579995
+tts_usd=0.0 music_usd=0.0 footage_usd=0.0 total_usd=0.162 budget_usd=2.00
