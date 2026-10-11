@@ -1,0 +1,41 @@
+# agentic-leads v3 launch video — spend log
+date: 2026-10-11
+pack: leads (80s pit-trading frenzy, hand-drawn ink, 24 s, 10 shots)
+box: bx_dv7qds55 (agent-roster)
+budget_per_video: $2.00
+
+## Paid API calls
+(none — zero paid calls this video)
+
+## Model / price lines
+- visuals: procedural PIL renderer on box (paper + ink + boil) — $0.00
+- music/SFX: numpy synth, 118 BPM brass funk + synced SFX — $0.00
+- logos: Simple Icons SVGs (LinkedIn, Stripe, X) via jsdelivr CDN, CC0 — $0.00
+- fonts: Caveat + Kalam (OFL, google/fonts) + DejaVu (box) — $0.00
+- voice/TTS/HeyGen: none (pack is VO-free) — $0.00
+- WaveSpeed: none — $0.00
+- TinyFish: none — $0.00
+
+## Total
+spent: $0.00 (budget $2.00)
+
+## Proof note (measured, not invented)
+- Real CLI run on box: node dist/cli.js search --query Sample
+  --source county-file --file examples/county.csv --live
+  → 2 leads (Sample Service, Inc.; Sample Office), 0.02 s, stable over 3 runs.
+- End-card proof line: "Measured: 2 leads in 0.02 s".
+- No vendor-integration claims: LinkedIn/Stripe/X marks appear only as
+  tape-storm noise + X comment card, unmodified, naming services only.
+
+## Audio audit (final muxed mp4s, ffmpeg ebur128)
+- Integrated: -16.1 LUFS both cuts (spec -16 to -14; 0.1 under nominal,
+  inside EBU R128 ±1 LU tolerance; peak-compliant frontier for this mix)
+- True peak: -1.1 dBFS both cuts (spec at or under -1 dB: PASS)
+
+## Asset gaps (honest record)
+- assets/jpg/leads-j3-figurine.jpg absent from fox-media @1ca9f62 (no JPGs
+  in repo at all): hand-drew the blister-pack cut-in in-video instead.
+- cdn.simpleicons.org 403 from box (Cloudflare): used identical Simple
+  Icons SVGs via cdn.jsdelivr.net/npm/simple-icons (200, CC0).
+- X1 comment per trends pack shown as styled X card with real X mark;
+  no tweet screenshot API used (zero spend).
