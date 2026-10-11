@@ -1,0 +1,25 @@
+agentic-billing v3 launch video — spend log
+box: bx_psz5nwp2 (agent-roster)  date: 2026-10-11
+budget: $2.00
+
+paid calls: NONE
+total: $0.00
+
+provenance (all $0):
+- video: HyperFrames 0.8.146 local render (system Chrome), hand-authored HTML/GSAP
+- audio: numpy-synthesized ragtime bed 112 BPM + SFX (make_audio.py, seed 7)
+- logos: Stripe + X path data from simple-icons v15 (jsDelivr mirror).
+  cdn.simpleicons.org returned a Cloudflare challenge page on 2026-10-11,
+  so vendor paths came from the versioned jsDelivr mirror, used unmodified.
+  X is shown white on black, the sanctioned /white equivalent for dark art.
+- fonts: Archivo Black, Cinzel Decorative Black (google/fonts, OFL license)
+- proof: real CLI capture, agentic-billing 0.1.0 preview, no keys (proof-cli.txt)
+- npm: agentic-billing@0.1.0 published (npm view verified 2026-10-11)
+
+verification:
+- agentic-billing-16x9.mp4: 1920x1080, 30fps, 24.0s, I=-15.60 LUFS, TP=-1.11 dB
+- agentic-billing-9x16.mp4: 1080x1920, 30fps, 24.0s, I=-15.60 LUFS, TP=-1.11 dB
+- frame 0: hook line on both cuts, no fade from black
+- end frame: npm pill + both real URLs on both cuts
+- tokens: zero REPO_URL/NPM_URL (grep-verified in composition sources)
+- voice: none (global VO ban; HeyGen billing inserts gated on lead GO, never came)
