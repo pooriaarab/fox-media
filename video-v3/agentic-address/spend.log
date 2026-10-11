@@ -1,0 +1,19 @@
+agentic-address v3 launch video — spend log
+date: 2026-10-11 UTC
+box: bx_cnnxd4p3 (environment agent-roster)
+budget: $2.00
+builder: workflow child (boat.dev box render)
+
+paid calls: none
+- video: hand-built HyperFrames compositions, local Chrome render — $0.00
+- music/SFX: synthesized locally (numpy tone synth + ffmpeg) — $0.00
+- logos: simple-icons X mark via jsDelivr (CC0, unmodified) — $0.00
+- imagery: zero AI-generated stills/clips (pack note: no fake characters)
+- WaveSpeed calls: 0 ($0.00) | HeyGen calls: 0 ($0.00) | TinyFish calls: 0 ($0.00)
+
+total: $0.00 (within $2.00 budget)
+
+proof note: "10 of 12 fixed" measured on-box via agentic-address 0.1.1
+dry-preview batch over a 12-row fixture CSV (10 rows normalized with
+verified_street + deliverability band, 2 rows errored "street is required").
+no invented counts. end card URLs are the live repo + npm pages.
