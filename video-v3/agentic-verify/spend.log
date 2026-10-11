@@ -1,0 +1,16 @@
+# agentic-verify v3 launch video — spend log (USD)
+# budget $2.00 | box bx_5wznpg5k | date 2026-10-11 | world: 60s spy-fi procedural dossier room
+paid | bytedance/seedream-v4 | 7 runs x $0.027 = $0.189 | pred 52d90ff7e23d490cb51a7bcdd743d3cd loupe, 6560b958ae51498baa253dd2d108fd35 reels, 09f7f35d70354801b8b5bab90925f0a2 map, e935c5664ade4a35a5f4bbd9eb48e36e seal, cfb10396ce464224b1efeab3adb04132 green, 716aff560bcb45928a603d6d51bb2514 archive, fb9b28755ed74954a35e5e5e7970944f screen | 7 bg stills 1920x1080, no-text prompts, no faces (hands/silhouette/objects only)
+paid | minimax/music-2.6 | 1 run x $0.15 = $0.15 | pred 0b5d5d7cd2b545c6a7e69df2c98db93e | instrumental spy brass + surf guitar bed, first 24 s of 96.08 s used, fade out 22.5-24
+stuck-unbilled | bytedance/seedream-v4 | screen original pred 2c307ed2c3e94dc28c66be2bc55bca7d still processing, never completed, replaced by screen-re above
+free | simple-icons 16.34.0 (CC0) x/apple/android via cdn.jsdelivr.net
+free | google fonts (OFL) Oswald/SpecialElite/IBMPlexMono via github google/fonts
+free | ffmpeg-synthesized SFX x14 (slam, clicks, whir, pings, clunk, settle, resolve) + loudnorm | hyperframes 0.8.146 local renders x2
+total paid: $0.339 (UNDER $2.00 budget)
+wavespeed balance before: $10.71205
+wavespeed balance after: $8.00005 (fleet-wide delta $2.71 shared with sibling video workers on the same key; this video metered $0.339 on prediction ids above)
+proof provenance: "12 bad shapes stopped" = 12 invalid verdicts measured with the real agentic-verify CLI on this box (11-shape file run 11/11 invalid + empty-string run invalid); repo suite 99/99 pass and verify.test.ts asserts the same 12 invalid shapes (11 test.each rows + overlong)
+claim provenance: vendors MillionVerifier/ZeroBounce + offline local default = README (Use a vendor checker); verdicts valid/invalid/risky/unknown + npx/CLI/MCP runs = README; comment "Field day with my old setup." = trends-2026-10.md X3 trimmed; Apple/Android marks = director pack asset list shown as mail-source chips with no capability claim; npm page confirmed via registry.npmjs.org/agentic-verify/latest
+audio: no voiceover (verify is a HeyGen pack but heygen.md gates render on lead GO, none issued; global no-VO rule holds); shipped AAC both cuts: integrated -14.4 LUFS, true peak -1.9 dBTP (mix wav -14.3/-2.5 plus -1 dB AAC safety)
+video: hyperframes check passed both comps; 16x9 1920x1080 h264 yuv420p 24.0 s; 9x16 1080x1920 h264 yuv420p 24.0 s; frame-0 hook contrast + envelope luma, DENIED red V153-vs-117 at t=1, PASS green V102-vs-124 at t=14, end-card URL contrast + brass pill confirmed by region pixel stats (no eyeball: renders stay on box per box rules)
+gaps: J2 penguin JPG cut-in omitted (assets/jpg/verify-j2-penguin.jpg absent from fox-media); founder HeyGen inserts omitted (no GO); stills carry no OCR text check (no tesseract on box; mitigated by no-text prompts + no-face framing)
