@@ -1,0 +1,22 @@
+# clip v3 spend log (USD list prices)
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=hero16 id=b1a3d468336744abb605e7c2879456d7
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=crt9 id=17a7df78d0484716a7464b7116592145
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=crt16 id=b2b340d0c84d4ac2ac2f410036e71105
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=desk16 id=42a166e99c5d4f6aa5d68e9a2ead9700
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=j69 id=9c95debea6404977a3256ac06e5b6cc0
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=j616 id=9f58e7b38bda444f8e705e5269ad4358
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=desk9 id=41130819273a41e2b81839ef547c1f14
+2026-10-11T06:10:15Z model=bytedance/seedream-v5.0-pro price=0.045 name=hero9 id=8e3d07ea75164bada32bfafff9287907
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s9-point16 id=60413b9ccd1946eabced6b17c1f18e2d
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s2-skate9 id=3c03906b16de48be8d9b53ee984e04e3
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s5-room16 id=c7d3a67792524571b76488836a433dba
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s3-flip16 id=39b7c4a029664ed8b2bd7216e91d5bd7
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s3-flip9 id=d83566f704644b90a24ef4071546691a
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s6-cd16 id=2ba22b43bf674820979dfcf4361d1703
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s8-crowd16 id=4947229ac8a84e34bc43b310a99d7211
+2026-10-11T06:11:10Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s2-skate16 id=417bdad1e22046baac22680ba9caf611
+2026-10-11T06:11:23Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s5-room9 id=ebfd279bd83840b29d7ea5f5d4a57413
+2026-10-11T06:11:23Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s6-cd9 id=339cf467bd8c4d68b09de4d654977c38
+2026-10-11T06:11:23Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s8-crowd9 id=c9f3d02000cf4b57b8086cf7a54cbab1
+2026-10-11T06:11:23Z model=wavespeed-ai/flux-kontext-pro price=0.040 name=s9-point9 id=3f6266378ee542fdaf279c1ab060643f
+total_usd=0.840 calls=20 budget_usd=2.00 status=UNDER
