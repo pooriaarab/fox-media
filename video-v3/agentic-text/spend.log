@@ -1,0 +1,23 @@
+agentic-text v3 launch video — spend log
+Box: bx_hfyh2y9y (agent-roster) | Date: 2026-10-11 | Budget: $2.00
+
+PAID CALLS: none. Total $0.00.
+- Video: HyperFrames 0.8.146 local render, 2x 24.0 s 30 fps full-frame — $0.00
+- Audio: deterministic python synth (122 BPM bed + placed SFX) + ffmpeg
+  loudnorm two-pass — $0.00
+- Imagery: hand-authored HTML/CSS/SVG/GSAP; real X mark via simple-icons
+  (jsdelivr, CC0, white) — $0.00
+- Proof: `npx vitest run` on box: 62 passed (8 files) — $0.00
+- QC: tesseract.js local OCR + ffprobe + signalstats — $0.00
+
+TOTAL: $0.00 / $2.00 budget.
+
+QC
+- 1920x1080 + 1080x1920, 30 fps, yuv420p, 24.0 s, hard cuts, frame 0 = hook.
+- Loudness two-pass: I=-15.04 LUFS (spec -16..-14), TP=-1.50 dBFS (spec <=-1).
+- OCR PASS both aspects: hook, end-card URLs + pill, proof, comment, notif.
+- Poster frames exported per director README.
+- Keys at start: WAVESPEED_API_KEY/HEYGEN_API_KEY/TINYFISH_API_KEY all SET
+  (unused; zero-spend path).
+- Shot 6: J4 baby-self JPG cut-in replaced by iPhone + Android duo frames
+  with Apple-style notification, per pack note. No paid image calls.
