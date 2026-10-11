@@ -1,0 +1,55 @@
+agentic-reply v3 launch video — spend log
+Box: bx_5m4e6hh3 (agent-roster) | Date: 2026-10-11 | Budget: $2.00
+
+PAID CALLS (wavespeed.ai, prices from wavespeed.ai model pages 2026-10-11)
+1.  bytedance/seedream-v4             $0.027  hero v1 (discarded: likeness risk)
+2.  bytedance/seedream-v4             $0.027  hero v2 LOCKED (auburn bob, oatmeal knit)
+3.  wavespeed-ai/flux-kontext-max     $0.080  shot s6 16:9 (reads phone)
+4.  wavespeed-ai/flux-kontext-max     $0.080  shot s2 9:16 (soda spill)
+5.  wavespeed-ai/flux-kontext-max     $0.080  shot s5 16:9 (crowd leans in)
+6.  wavespeed-ai/flux-kontext-max     $0.080  shot s6 9:16
+7.  wavespeed-ai/flux-kontext-max     $0.080  shot s1 9:16 (group freeze)
+8.  wavespeed-ai/flux-kontext-max     $0.080  shot s2 16:9
+9.  wavespeed-ai/flux-kontext-max     $0.080  shot s8 9:16 (sent check)
+10. wavespeed-ai/flux-kontext-max     $0.080  shot s5 9:16
+11. wavespeed-ai/flux-kontext-max     $0.080  shot s7 16:9 (wide set)
+12. wavespeed-ai/flux-kontext-max     $0.080  shot s8 16:9
+13. wavespeed-ai/flux-kontext-max     $0.080  shot s9 16:9 (hugs phone)
+14. wavespeed-ai/flux-kontext-max     $0.080  shot s7 9:16
+15. wavespeed-ai/flux-kontext-max     $0.080  shot s9 9:16
+16. wavespeed-ai/flux-kontext-max     $0.080  shot s1 16:9 (retry; first attempt failed)
+
+TOTAL PAID: $1.174 / $2.00 budget — PASS ($0.826 headroom)
+No voiceover/TTS/music-model calls. No HeyGen (not a HeyGen pack). No TinyFish
+calls (logos via Simple Icons CDN instead, per trends file).
+
+FREE ASSETS (downloaded on box, $0)
+- Logos: Gmail, X, Instagram, LinkedIn SVGs via jsdelivr simple-icons (CC0),
+  unmodified shapes. (cdn.simpleicons.org served a JS challenge on the box;
+  same package via jsdelivr npm CDN.)
+- SFX (freesoundslibrary.com, CC BY 4.0, commercial OK):
+  crowd-laughing-and-applauding (2018), record-scratch-sound (2021),
+  water-splash-sound (2020). Credit: FreeSoundsLibrary / Spanac.
+- Penguin JPEG: U.S. Coast Guard photo by PO2 Grant DeVuyst via DVIDS
+  (image 2371912), public domain. Single Adélie penguin + Polar Star.
+- Music bed + remaining SFX (buzz, pops, oooh, whoosh, tick, resolve):
+  synthesized locally with numpy/ffmpeg, $0.
+
+MEASURED PROOF (no invented numbers)
+- "7 inboxes. One tap.": 7 vendor adapters in agentic-reply-work/src/vendors/
+  registry.ts VENDOR_NAMES (github, slack, discord, youtube, reddit, mastodon,
+  webhook), verified 2026-10-11. Test suite: 101/101 vitest pass (not shown).
+- End card URLs: https://github.com/pooriaarab/agentic-reply and
+  https://www.npmjs.com/package/agentic-reply (npm name matches package.json).
+  Zero REPO_URL/NPM_URL tokens.
+
+DEVIATIONS (intentional, noted)
+- Music grid 120 BPM, not pack's 110 BPM: all 11 locked cut points land
+  exactly on 120 BPM beats (0.5 s); 110 BPM would leave 10 cuts off-grid.
+- IG chip drops the emoji (POV comment words exact): no color-emoji font
+  on the render box; text stays verbatim otherwise.
+
+QC
+- 1920x1080 + 1080x1920, 30 fps, yuv420p, 24.0 s, hard cuts, frame 0 = hook.
+- Loudness two-pass: I=-15.3 LUFS (spec -16..-14), TP=-1.1 dBFS (spec <=-1.0).
+- Poster frames exported per director README.
