@@ -1,0 +1,54 @@
+# agentic-sheets v3 launch video — spend log (box bx_2p2ncn3k, 2026-10-11)
+# Budget: $2.00. Every paid generation call is listed with model and price.
+
+PAID CALLS: none. Total: $0.00 (at most $2.00: PASS)
+
+How the $0 build was done (all on boat.dev box):
+- Video: hand-authored HyperFrames 0.8.146 HTML/GSAP compositions, 2 separate
+  full-frame renders (16x9 1920x1080, 9x16 1080x1920, 30 fps, 24.0 s).
+  No blur fill, no crop, no pillarbox. System Chrome, high quality.
+- Audio: numpy-synthesized elevator ska 120 BPM (sour flat-9 bar 1, tight
+  groove from the turn) plus disciplined SFX under the bed (dings, thud,
+  keys, clicks, swell, splash, drum hit, snap, settle, chair, resolve).
+  No TTS, no voiceover, no narration.
+- Logos: real Simple Icons CC0 marks (Gmail, Stripe, X) via versioned
+  jsDelivr mirror (simple-icons@v15), paths unmodified. X shown white-on-black
+  card per trends /white convention for dark art.
+- Spooky cut-in (shot 6, drum-hit freeze): real photo "Office decorated for
+  Halloween in Montreal, Canada, in 2014" by Coastal Elite, CC BY-SA 2.0,
+  via Wikimedia Commons thumb API (960x776).
+- Fonts: Arimo + Courier Prime (OFL) via fontsource v5 woff2, local @font-face.
+- GSAP 3.14.2 local file. No render-time network.
+- No WaveSpeed/HeyGen/TinyFish calls. Keys verified SET at start, never used,
+  never printed.
+
+MEASURED proof numbers (from repo runs, never invented):
+- "10 rows match.": node proof script on box against agentic-sheets 0.1.0
+  dist (depth-1 clone of main, memory adapter, --live semantics):
+  pushedRows=10, pulledRows=10, match=true. Fixture: 10-row office expense
+  store (Sheet1!A1:C10), pushed live then pulled back in one process.
+- Pivot card: 10 rows, 238 total, 8 paid — counted from the same fixture
+  (costs 42+18+89+6+24+9+15+4+31=238; 8 of 9 items paid=yes).
+- Suite: vitest 88 passed (8 files) on box, agentic-sheets main @ 2026-10-11.
+- npm: agentic-sheets@0.1.0 published (npm view verified 2026-10-11).
+
+ASSET PROVENANCE:
+- gmail.svg: https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/gmail.svg (339 B)
+- stripe.svg: https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/stripe.svg (588 B)
+- x.svg: https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/x.svg (299 B)
+- spooky-desk.jpg: Wikimedia Commons File:Office Halloween Decorations
+  (23535582244).jpg, CC BY-SA 2.0, Coastal Elite via Flickr
+- Arimo/Courier Prime woff2: https://cdn.jsdelivr.net/npm/@fontsource/{arimo,courier-prime}@5/files/
+
+VERIFICATION (final_check.py on box, 26/26 PASS):
+- agentic-sheets-16x9.mp4: 1920x1080, 30 fps, 24.00 s, aac audio
+- agentic-sheets-9x16.mp4: 1080x1920, 30 fps, 24.00 s, aac audio
+- frame 0 both cuts: hook line + red #REF! cell (pixel-verified)
+- end frame both cuts: green npm pill + both real URL lines (pixel-verified)
+- loudness both cuts: I=-15.9 LUFS (target -16..-14), true peak=-1.5 dBFS
+  (ceiling -1 dB). Single-pass dynamic loudnorm I=-15 TP=-1.8 LRA=11.
+- tokens: zero REPO_URL/NPM_URL (grep-verified in both composition sources)
+- end card holds 4.0 s (20-24), exact strings: `npm i agentic-sheets`,
+  https://github.com/pooriaarab/agentic-sheets,
+  https://www.npmjs.com/package/agentic-sheets
+- voice: none (global VO ban; sheets is not a HeyGen pack)
