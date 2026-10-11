@@ -1,0 +1,85 @@
+agentic-tracking v3 launch video — spend log
+Box: bx_zz6muxeu (agent-roster) | Date: 2026-10-11 | Budget: $2.00
+
+PAID CALLS (wavespeed.ai; seedream-v4 $0.027, flux-kontext-max $0.08,
+per wavespeed.ai model pages 2026-10-11, same source as sibling v3 logs)
+seedream-v4 text-to-image:
+1.  $0.027  hero16 0716a60611324b899d19325f00d8061f (picker 16:9 ref)
+2.  $0.027  fig16  142467250d8e4271a21f14d22396c864 (J3 figurine 16:9)
+3.  $0.027  fig9   203f4cb5893441ed86991eba331bd7bb (J3 figurine 9:16)
+4.  $0.027  hero9  84eeaaffbfc6462d9618d1340376df48 (picker 9:16 ref)
+flux-kontext-max hero-anchor edits (id -> shot file, md5-verified):
+5.  $0.080  0ad9481517834a7aae76656676a75f17  s1 16:9 drones warm-over-floor hook
+6.  $0.080  8c03e64402b64bf886edf8f6e8617eb4  s1 9:16
+7.  $0.080  7cca411145034fc1a439957299a2410f  s2 16:9 picker scans box
+8.  $0.080  282876af23fc4a5f9a50364cf025aaa9  s2 9:16
+9.  $0.080  2c27c8229ec447858eeccfdffaef6985  s3 16:9 belts split wrong
+10. $0.080  6acea9d5b4f648f8a83e0dfc80010f6c  s3 9:16
+11. $0.080  a9d45aa0a6ce4342a07541607d9861c2  s4 16:9 parcels route live
+12. $0.080  d84ef8952b464473b6606a8111ae5ce1  s4 9:16
+13. $0.080  0f950a00bac34494bba35810d8dcceba  s5 16:9 lidar sweep
+14. $0.080  91b26c7be09241ec8249c0a62a1d325c  s5 9:16
+15. $0.080  5e6f1cabbccc49609fd17a6905fc8457  s6 16:9 robot arms sync
+16. $0.080  6dce77df84774c259b636f50fb40b1ca  s6 9:16
+17. $0.080  410a855441fc483cace293f4e5939900  s7 16:9 dots converge green
+18. $0.080  51382286841a4a28a41bffc8f809e927  s7 9:16
+19. $0.080  941cc13193ac4a07b27a5595de024496  s8 16:9 floor syncs + X card
+20. $0.080  37cdccf660b340a1aad198c96fbed43f  s8 9:16
+21. $0.080  317bd6fd2e284a69ac7ceac09bfbf726  s9 16:9 picker at map + proof
+22. $0.080  3b3da91e1e76463a960fdc956f64c058  s9 9:16
+
+TOTAL PAID: $1.548 / $2.00 budget — PASS ($0.452 headroom)
+No voiceover/TTS/music-model calls. No HeyGen (not a HeyGen pack).
+No TinyFish calls (marks via Simple Icons npm CDN instead, CC0).
+
+FREE ASSETS (fetched/generated on box, $0)
+- Logos: Apple, Android, X SVGs via jsdelivr simple-icons (CC0),
+  shapes unmodified, rasterized + recolored white for dark UI
+  (same use as the trends file's documented /white variant).
+- Music bed (techno pulse) + all SFX (rotors, beeps, clank, blips,
+  sweep, servos, pop, chime, swell, ticks, resolve): synthesized
+  locally with numpy/ffmpeg, $0.
+- End card: designed steel graphic (PIL), $0. No generated text
+  anywhere: every word and URL composited in post.
+
+MEASURED PROOF (no invented numbers)
+- Test suite on box 2026-10-11: 104/104 vitest pass (7 files).
+- Real CLI run on box: call-file source + file-log sink over the
+  repo's own examples: 3 calls attributed, 2 credited leads
+  (summer-sale 2, flyer 1), sink count 3.
+- On-screen shot 9: "3 calls in. 2 leads out." (measured units).
+- End card URLs: https://github.com/pooriaarab/agentic-tracking
+  and https://www.npmjs.com/package/agentic-tracking (npm name
+  matches package.json name agentic-tracking 0.2.0).
+  Zero REPO_URL/NPM_URL tokens (grep-verified).
+
+DEVIATIONS (intentional, noted)
+- Music grid 120 BPM, not pack's 130 BPM: all 11 locked cut
+  points land exactly on 120 BPM beats (0.5 s); 130 BPM would
+  leave cuts off-grid. Same call as the reply v3 cut.
+- Shot timing (total still 24.0 s, end card still 4.0 s):
+  s1 0-2.5 (6-word hook needs the 2.5 s hold), s2 2.5-4.5,
+  s3 4.5-7, s8 16-17.5, s9 17.5-20 (6-word proof needs 2.5 s).
+- Shot 9 text uses real measured units ("3 calls in.
+  2 leads out.") instead of the pack's "[MEASURED] stops".
+- J3 figurine: pack path assets/jpg/tracking-j3-figurine.jpg is
+  absent from fox-media; generated an equivalent in the Nano
+  Banana figurine style (trends file section 3) and cut it in
+  for 0.5 s inside shot 6 (11-12.5 arms, 12.5-13 figurine),
+  graphic-to-graphic, no text.
+- Separate 9:16 hero + figurine generations (no-crop rule:
+  both aspects are full-frame renders, no blur fill).
+- Caller pack note read "Declaration-style gravitas": kept
+  the drone-ops pack as the visual contract and honored the
+  note as tone (solemn, confident, no jokes in copy).
+- loudnorm pass 2 targets TP -1.5 dB so the AAC encode lands
+  true peak at or under -1.0 dBFS.
+
+QC
+- 1920x1080 + 1080x1920, 30 fps, yuv420p, 24.0 s, hard cuts.
+- Frame 0 = hook on both cuts (poster check: non-black frame,
+  bright text band present). No fade in.
+- Loudness two-pass: I=-15.51 LUFS (spec -16..-14),
+  TP=-1.03 dBFS (spec <= -1.0), both cuts.
+- Poster + end PNGs exported per aspect; end card holds the
+  install pill plus both real URLs for 4 s.
