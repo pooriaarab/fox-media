@@ -1,0 +1,33 @@
+# agentic-crm v3 launch video — spend log
+box: bx_37bjm6nq (environment agent-roster, ttl 7200)
+date: 2026-10-11
+pack: fox-media/video-v3/director/crm.md (90s cubicle dramedy, 10 shots, 24 s, no VO)
+
+## Keys at start (presence only, values never printed)
+WAVESPEED_API_KEY=EMPTY HEYGEN_API_KEY=SET TINYFISH_API_KEY=SET
+
+## Paid calls (model + price each)
+none — $0.00
+No Wavespeed key exists on the box, so no paid generation ran.
+All visuals are code-drawn frames (PIL) and all audio is synthesized
+(numpy + ffmpeg) on the box. crm is not a HeyGen pack, so no avatar
+or TTS ran. Logos are unmodified Simple Icons marks (CC0) fetched
+free via jsDelivr mirror (cdn.simpleicons.org served a JS challenge
+to curl): gmail.svg, linkedin.svg, x.svg, rasterized with headless
+Chrome on the box.
+
+## Proof (measured on box, not invented)
+MERGED_OK kinds=3 store=1 — one MemoryCrmStore took a prospect, a vendor,
+and a lead (node measure.mjs against built dist, ids round-tripped).
+On-screen proof: "3 merged into 1" + "one store: D1+KV".
+Repo tests: 8 files, 73 tests, all pass (vitest, supporting artifact only).
+
+## Renders (all on box bx_37bjm6nq)
+agentic-crm-16x9.mp4: 1920x1080, h264 yuv420p 30fps, aac, 24.000 s, 3844656 bytes
+agentic-crm-9x16.mp4: 1080x1920, h264 yuv420p 30fps, aac, 24.000 s, 3687572 bytes
+audio: -15.9 LUFS integrated, true peak -1.4 dBFS (dual-pass loudnorm + limiter)
+verify: 35/35 checks pass (dims, codecs, duration, loudness, hook frame,
+pill + URL bands, hard cuts, exact URL strings, no REPO_URL/NPM_URL tokens)
+
+## Total
+spend $0.00 of $2.00 budget
